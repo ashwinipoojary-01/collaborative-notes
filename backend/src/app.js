@@ -26,7 +26,7 @@ export function createApp() {
     const dist = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../frontend/dist');
     if (fs.existsSync(dist)) {
       app.use(express.static(dist));
-      app.get('*', (_req, res) => res.sendFile(path.join(dist, 'index.html')));
+      app.use((req, res, next) => (req.method === 'GET' ? res.sendFile(path.join(dist, 'index.html')) : next()));
     }
   }
 
