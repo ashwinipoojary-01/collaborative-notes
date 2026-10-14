@@ -10,7 +10,7 @@ A full-stack, real-time collaborative notes app.
 | Auth | JWT (Bearer) + bcrypt (cost 12) |
 | Tests | Node.js built-in test runner + Supertest + socket.io-client (MongoDB via `mongodb-memory-server` or a real URI) |
 
-## Features
+## Features.
 
 - **Auth:** register, log in, log out, persistent login (JWT in `localStorage`), protected routes, client- and server-side validation, rate-limited auth endpoints.
 - **Dashboard:** My Notes / Shared With Me / Favorites, search (title + content), grid and list views, sort by recently updated, oldest, or alphabetical, loading skeletons, empty states. All data comes from the API.
