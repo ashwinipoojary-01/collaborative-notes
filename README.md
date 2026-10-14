@@ -75,7 +75,7 @@ Open http://localhost:5173. To try collaboration, register two accounts in two b
 
 If the database is unreachable, the server logs the error and exits. It never runs without a database.
 
-### Environment variables
+### Environment variables.
 
 | Variable | Where | Description |
 | --- | --- | --- |
