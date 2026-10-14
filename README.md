@@ -18,7 +18,7 @@ A full-stack, real-time collaborative notes app.
 - **Collaboration:** invite registered users by email as **Viewer** or **Editor**, change or remove permissions, live presence avatars, live content updates without a refresh, auto-reconnect with resync, and immediate eviction when access is revoked or the note is deleted.
 - **UI:** light and dark themes, responsive layout with a mobile drawer, toasts, keyboard-accessible dialogs (focus trap, Esc), ARIA labels.
 
-## Project structure
+## Project structure.
 
 ```
 collaborative-notes/
