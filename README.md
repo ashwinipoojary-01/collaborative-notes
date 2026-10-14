@@ -1,4 +1,4 @@
-# Inkwell — Collaborative Notes
+# Inkwell — Collaborative Notes..
 
 A full-stack, real-time collaborative notes app.
 
